@@ -3,7 +3,7 @@ const NavBar = () => {
   return (
     <>
       <div>
-        <div class="navbar bg-base-100">
+        <div class="navbar bg-base-100 shadow-md">
           <div class="navbar-start">
             <div class="dropdown">
               <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -35,9 +35,17 @@ const NavBar = () => {
                   {" "}
                   <Link href="/about">About</Link>
                 </li>
+                <li>
+                  {" "}
+                  <Link href="/profile">Profile</Link>
+                </li>
+                <li>
+                  {" "}
+                  <Link href="/admin">Admin</Link>
+                </li>
               </ul>
             </div>
-            <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+            <a class="btn btn-ghost normal-case text-xl">BABENG-DEV</a>
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal p-0">
@@ -50,10 +58,18 @@ const NavBar = () => {
                 {" "}
                 <Link href="/about">About</Link>
               </li>
+              <li>
+                {" "}
+                <Link href="/profile">Profile</Link>
+              </li>
+              <li>
+                {" "}
+                <Link href="/admin">Admin</Link>
+              </li>
             </ul>
           </div>
           <div class="navbar-end">
-            <a class="btn">Get started</a>
+            <a class="btn">"solid-js": "^1.4.7"</a>
           </div>
         </div>
       </div>

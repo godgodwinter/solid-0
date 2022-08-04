@@ -9,7 +9,7 @@ import App from "./App";
 render(
   () => (
     <Router>
-      <div data-theme="cupcake">
+      <div data-theme="cupcake" class="min-h-screen">
         <NavBar />
         <App />
       </div>
