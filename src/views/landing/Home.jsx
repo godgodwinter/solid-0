@@ -1,8 +1,8 @@
-import DataTable from "@/components/atoms/DataTablesExamplesSort";
+import DataTable from "@/components/atoms/DataTablesExamplesPaginate";
 import toast, { Toaster } from "solid-toast";
 const notify = () => toast("Here is your toast.");
 const notifySuccess = () => toast.success("Here is your toast Success.");
-const notifyError = () => toast.success("Here is your toast Success.");
+const notifyError = () => toast.error("Here is your toast Error.");
 const Home = () => {
   return (
     <>
